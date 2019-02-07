@@ -63,7 +63,7 @@ a:hover {
 #center ul li:hover {
   background-color: white;
 }
-/*Have to fix bottom margin or something*/
+
 #center ul li:last-child {
   margin-bottom: 40%;
 }
@@ -74,6 +74,7 @@ a:hover {
   background-color: var(--main) !important;
 }
 
+/* This deviates from the original */
 #center-bottom {
   color: white;
   background-color: var(--side);
