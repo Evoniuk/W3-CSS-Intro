@@ -1,0 +1,65 @@
+:root {
+  --main: #50AD55;
+  --side: #555555;
+  --link: #86C55B;
+}
+
+body {
+  font-family: Verdana;
+  line-height: 1.6em;
+}
+
+#heading h1, #sidebar, .center-heading {
+  color: var(--main);
+}
+
+#center ul {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+#center ul li {
+  background-color: var(--side);
+  display: inline;
+  font-size: 17px;
+  color: white;
+  padding: 5px 30px;
+  margin-right: 5px;
+  line-height: 2.4em;
+  cursor: pointer;
+}
+
+#center ul li:hover {
+  background-color: #999;
+}
+
+#s3 {
+  background-color: var(--main) !important;
+}
+
+#s3:hover {
+  background-color: #999 !important;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: var(--link);
+}
+
+#center-bottom {
+  border: 1px solid lightgrey;
+  background-color: #F1F1F1;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1em;
+  margin-top: 10px;
+}

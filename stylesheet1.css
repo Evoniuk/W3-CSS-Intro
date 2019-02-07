@@ -1,0 +1,92 @@
+:root {
+  --main: #50AD55;
+  --side: #3AA5E4;
+  --grey: #F1F1F1;
+}
+
+body {
+  font-family: Verdana;
+  line-height: 1.6em;
+}
+
+#heading {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: var(--main);
+  border-radius: 5px;
+}
+
+#heading h1 {
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+#heading p {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#center ul {
+  list-style: none;
+  float: left;
+  padding-left: 0;
+  padding-right: 10px;
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+#center ul li {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 60px;
+  padding-left: 3px;
+  background-color: var(--grey);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#center ul li:hover {
+  background-color: white;
+}
+/*Have to fix bottom margin or something*/
+#center ul li:last-child {
+  margin-bottom: 40%;
+}
+
+#s1 {
+  font-weight: bold;
+  color: white;
+  background-color: var(--main) !important;
+}
+
+#center-bottom {
+  color: white;
+  background-color: var(--side);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+footer {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background-color: var(--grey);
+  text-align: center;
+  padding: 5px;
+  font-size: 11px;
+  margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+:root {
+  --back: black;
+  --main: #86C55B;
+  --side: white;
+}
+
+body {
+  background-color: var(--back);
+  color: var(--main);
+  font-family: 'courier new';
+  line-height: 1.6em;
+}
+
+a {
+  color: var(--side);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--main);
+}
+
+#center ul li {
+  cursor: pointer;
+}
+
+#center ul li:hover {
+  color: var(--side);
+}
+
+#s4 {
+  color: var(--side);
+  font-weight: bold;
+}
+
+#center-bottom {
+  color: var(--side);
+  border: 1px solid var(--side);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+footer {
+  border: 1px solid var(--side);
+  border-radius: 5px;
+  text-align: center;
+  color: var(--side);
+  font-size: 12px;
+  line-height: 1.2em;
+  padding: 10px;
+  margin-top: 10px;
+}
